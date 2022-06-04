@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+  <main class="main">
+  <!-- Rating state start -->
+    <div class="component">
+
+      <img class="component__icon" src="images/icon-star.svg" alt="icon star">
+      
+      <div class="component__texts">
+        <h1 class="component__title">How did we do?</h1>
+        <p class="component__paragraph">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+      </div>
+
+      <div class="component__options">
+        <span class="component__option">1</span>
+        <span class="component__option">2</span>
+        <span class="component__option">3</span>
+        <span class="component__option">4</span>
+        <span class="component__option">5</span>
+      </div>
+
+      <button class="component__submit" type="submit">Submit</button>
+
+    </div>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <div class="component component--state-2 component--hidden">
+    <img class="component__illustration" src="images/illustration-thank-you.svg" alt="illustration-thank-you">
+    <span class="component__message">You selected <span id="rating"></span> out of 5</span>
+    <div class="component__texts component__texts--state-2">
+      <div class="component__title">Thank you!</div>
+      <p class="component__paragraph component__paragraph--state-2">We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+    </div>
+  </div>
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="attribution__link" href="#" target="_blank">Alex Huanachin</a>.
+  </div>
+
+  </main>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

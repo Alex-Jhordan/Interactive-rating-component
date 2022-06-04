@@ -1,0 +1,20 @@
+/*Layout*/
+/*The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px*/
+
+
+/*Font*/
+/*- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+- Weights: 400, 700*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/*font-family: 'Overpass', sans-serif;*/
+
+
+/*Colors*/
+$button-background-color: hsl(25, 97%, 53%); //Orange
+$component-background-color: hsl(215, 22%, 15%); //Dark Blue
+$main-background-color : hsl(228, 11%, 9%); //Very Dark Blue
+$options-background-color : hsl(215, 20%, 22%); //Medium Grey
+$text-color-1: hsl(0, 0%, 100%); //White
+$text-color-2 : hsl(217, 12%, 63%); //Light Grey

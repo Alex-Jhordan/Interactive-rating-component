@@ -1,0 +1,22 @@
+@media (min-width: 1024px) {
+    
+    .component__option {
+        transition: all 500ms;
+        cursor: pointer;
+
+        &:hover, &:active {
+            background-color: $button-background-color;
+            color: $text-color-1;
+        }
+    }
+
+    .component__submit {
+        transition: all 500ms;
+        cursor: pointer;
+
+        &:hover, &:active {
+            background-color: $text-color-1;
+            color: $button-background-color;
+        }
+    }
+}
